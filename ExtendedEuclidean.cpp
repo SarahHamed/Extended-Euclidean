@@ -38,7 +38,6 @@ long long zz=1;
     if(B3==0)
        {
            zz=B3;
-        //cout<<"IMPOSSIBLE"<<endl;
         }
     else if(B3==1)
     {
@@ -57,9 +56,7 @@ int main()
     long long AddInv=0;
    long long M=0,N=0;
     scanf("%I64d %I64d",&M,&N);
-   //cin>>M;
-   //cin>>N;
-  // cout<<M<< " "<<N<<endl;
+
      while(N<0)
       {  N=N+M;}
     AddInv=AdditiveInverse( N,M );
